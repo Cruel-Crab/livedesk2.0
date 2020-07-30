@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^ERROR$ 404.php
+RewriteRule ^home$ index.html
+RewriteRule ^services$ services.html
+RewriteRule ^outsourcing$ outsourcing.html
+RewriteRule ^company$ company.html
+RewriteRule ^contact-us$ contact.html
+RewriteRule ^live-desk$ ld.html
+RewriteRule ^frequently-asked$ faq.html
+RewriteRule ^partner-with-us$ partners.html
+RewriteRule ^work-with-us$ jobs.html
+RewriteRule ^call-center$ callcenter.html
+RewriteRule ^privacy-policy$ privacy.html
+RewriteRule ^virtual-assistant$ va.html
+
